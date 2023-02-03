@@ -1,0 +1,32 @@
+*{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#game{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#title{
+    height: 250px;
+    left: 50vh;
+   
+}
+#inicio{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    top: 10vh;
+    
+    
+}
+#inicio .botonera{
+    padding-top: 40px;
+}
+#inicio div button {
+    height: 80px;
+    left: 75vh;
+    font-size: xx-large;
+}
